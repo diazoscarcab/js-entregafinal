@@ -157,7 +157,7 @@ function mostrarFormularioCompra() {
     if (datos.some((dato) => !dato)) {
       mostrarError("Completa todos los campos correctamente.");
     } else {
-      procesarCompra(...datos);
+      procesarCompra(nombre, apellido, direccion);
     }
   });
 }
@@ -171,7 +171,7 @@ function procesarCompra(nombre, apellido, direccion) {
 function mostrarConfirmacion(nombre, apellido, direccion) {
   const modal = document.getElementById("modal-confirmacion");
   const mensaje = document.getElementById("mensaje-confirmacion");
-  mensaje.textContent = `Gracias por tu compra, ${nombre} ${apellido}. Tu pedido será enviado a ${direccion}.`;
+  mensaje.textContent = `Gracias por tu compra, ${nombre} ${apellido}. Tu pedido será enviado a ${direccion}en 5 días hábiles.`;
   modal.style.display = "block";
 
   document.getElementById("cerrar-modal").addEventListener("click", () => {
