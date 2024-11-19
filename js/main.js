@@ -149,18 +149,19 @@ function eliminarProductoDelCarrito(id, carrito) {
 function mostrarFormularioCompra() {
   const formCompra = document.getElementById("formulario-compra");
   formCompra.style.display = "block";
-  formCompra.querySelector("form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  const nombre = document.getElementById("nombre").value.trim();
-  const apellido = document.getElementById("apellido").value.trim();
-  const direccion = document.getElementById("direccion").value.trim();
 
-  if (!nombre || !apellido || !direccion) {
-    mostrarError("Completa todos los campos correctamente.");
-  } else {
-    procesarCompra(nombre, apellido, direccion);
-  }
-});
+  const form = formCompra.querySelector("form");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const nombre = document.getElementById("nombre").value.trim();
+    const apellido = document.getElementById("apellido").value.trim();
+    const direccion = document.getElementById("direccion").value.trim();
+    if (!nombre || !apellido || !direccion) {
+      mostrarError("Completa todos los campos correctamente.");
+    } else {
+      procesarCompra(nombre, apellido, direccion);
+    }
+  });
 }
 
 function procesarCompra(nombre, apellido, direccion) {
@@ -172,9 +173,8 @@ function procesarCompra(nombre, apellido, direccion) {
 function mostrarConfirmacion(nombre, apellido, direccion) {
   const modal = document.getElementById("modal-confirmacion");
   const mensaje = document.getElementById("mensaje-confirmacion");
-  mensaje.textContent = `Gracias por tu compra, ${nombre} ${apellido}. Tu pedido será enviado a ${direccion} en 5 días hábiles.`; // Ajusta el mensaje
+  mensaje.textContent = `Gracias por tu compra, ${nombre} ${apellido}. Tu pedido será enviado a ${direccion} en 5 días hábiles.`;
   modal.style.display = "block";
-
   document.getElementById("cerrar-modal").addEventListener("click", () => {
     modal.style.display = "none";
     cargarProductos();
