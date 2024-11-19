@@ -1,0 +1,14 @@
+[
+  { "id": 1, "nombre": "Paleta de padel Adidas Cross It 3.3", "precio": 697600, "imagen": "images/Paleta de padel Adidas Cross It 3.3.webp"},
+  { "id": 2, "nombre": "Paleta de padel Adidas Cross It Pro Edition 2024 Martita Ortega", "precio": 834600, "imagen": "images/Paleta de padel Adidas Cross It Pro Edition 2024 Martita Ortega.webp"},
+  { "id": 3, "nombre": "Paleta de padel Adidas Metalbone HRD 3.3 Ale Galán", "precio": 866700, "imagen": "images/Paleta de padel Adidas Metalbone HRD 3.3 Ale Galán.webp"},
+  { "id": 4, "nombre": "Paleta de padel Bullpadel Flow Woman 2024", "precio": 663400, "imagen": "images/Paleta de padel Bullpadel Flow Woman 2024.webp"},
+  { "id": 5, "nombre": "Paleta de padel Bullpadel Hack 03 2024", "precio": 749000, "imagen": "images/Paleta de padel Bullpadel Hack 03 2024.webp"},
+  { "id": 6, "nombre": "Paleta de padel Bullpadel Vertex 04 Hybrid 2024", "precio": 663400, "imagen": "images/Paleta de padel Bullpadel Vertex 04 Hybrid 2024.webp"},
+  { "id": 7, "nombre": "Paleta de padel Nox AT Genius Attack 18K 2024 Agustin Tapia", "precio": 642600, "imagen": "images/Paleta de padel Nox AT Genius Attack 18K 2024 Agustin Tapia.webp"},
+  { "id": 8, "nombre": "Paleta de padel Nox ML10 Luxury Shotgun 18K 2024 Miguel Lamperti", "precio": 642600, "imagen": "images/Paleta de padel Nox ML10 Luxury Shotgun 18K 2024 Miguel Lamperti.webp"},
+  { "id": 9, "nombre": "Paleta de padel Nox VK10 Future 2024 Aranzazu Osoro", "precio": 505600, "imagen": "images/Paleta de padel Nox VK10 Future 2024 Aranzazu Osoro.webp"},
+  { "id": 10, "nombre": "Paleta de padel Royal Cross Pro Carbono 3K", "precio": 377200, "imagen": "images/Paleta de padel Royal Cross Pro Carbono 3K.webp"},
+  { "id": 11, "nombre": "Paleta de padel Royal Hi-Lander Pro Master Calavera", "precio": 281800, "imagen": "images/Paleta de padel Royal Hi-Lander Pro Master Calavera.webp"},
+  { "id": 12, "nombre": "Paleta de padel Royal R4.0 Carbon White Mexico Open", "precio": 448900, "imagen": "images/Paleta de padel Royal R4.0 Carbon White Mexico Open.webp"}
+]
